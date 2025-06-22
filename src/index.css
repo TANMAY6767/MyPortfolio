@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 @layer components {
+  
   .borderTop {
     @apply border-t-[1px] border-t-zinc-800;
   }
@@ -32,3 +33,4 @@
     @apply text-textColor border-b-[1px] border-b-zinc-500 py-4 text-base hover:text-designColor duration-300
   }
 }
+
